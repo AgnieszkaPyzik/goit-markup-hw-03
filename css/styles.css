@@ -10,6 +10,14 @@
 * {
   margin: 0;
 }
+.section {
+  padding: 94px 0;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
 header {
   background-color: var(--light-color);
 }
@@ -35,6 +43,7 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-color);
+  padding: 200px;
 }
 h2 {
   font-weight: 700;
@@ -96,6 +105,10 @@ figure {
 }
 .section-1 {
   background-color: #2f303a;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .section-2,
 .section-3,
@@ -109,9 +122,10 @@ figure {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  display: block;
+  padding: 10px 41px 10px 42px;
 }
 .button-1st::first-letter {
   text-transform: uppercase;
