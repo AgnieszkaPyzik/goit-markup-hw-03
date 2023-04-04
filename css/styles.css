@@ -11,18 +11,17 @@
   margin: 0;
 }
 .section,
-.section-4 {
+.section-4,
+.section-5 {
   padding: 94px 0;
 }
 .container {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px;
 }
 header {
   background-color: var(--light-color);
-  height: 80px;
   border: 1px solid #ececec;
 }
 ul {
@@ -108,6 +107,7 @@ figure {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  padding: 32px 0;
 }
 .link-nav {
   color: var(--brand-color);
@@ -161,21 +161,20 @@ figure {
   line-height: 1.6;
   text-align: center;
   padding: 6px 22px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .button-main:hover,
 .button-main:focus {
   color: var(--light-color);
   background-color: var(--theme-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-nav {
   display: flex;
   column-gap: 8px;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 56px;
+  padding-bottom: 50px;
 }
 .lorem {
   text-transform: uppercase;
@@ -219,7 +218,6 @@ figure {
   gap: 30px;
   justify-content: space-between;
   padding-top: 50px;
-  padding-bottom: 94px;
 }
 .images-persons {
   display: flex;
@@ -245,20 +243,29 @@ figure {
 }
 .images-box {
   margin: 0 auto;
-  padding-bottom: 94px;
 }
 .box {
   width: 370px;
-  height: 404px;
   background: #ffffff;
   border: 1px solid #eeeeee;
-  flex-basis: calc((100%-30px)/3);
+  flex-basis: calc((100%-5px) / 3);
   display: inline-block;
-  gap: 30px;
+  margin: 15px 0;
+  
+}
+.product,
+.product-type {
+  padding-left: 24px;
+}
+.product {
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+.product-type {
+  padding-bottom: 20px;
 }
 footer {
   background-color: #2f303a;
-  height: 252px;
 }
 .link-maps,
 .link-end {
@@ -283,6 +290,5 @@ footer {
   padding-top: 60px;
 }
 .link-footer {
-  padding-top: 20px;
-  padding-left: 15px;
+  padding: 20px 15px 60px 0;
 }
