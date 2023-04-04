@@ -10,7 +10,8 @@
 * {
   margin: 0;
 }
-.section {
+.section,
+.section-4 {
   padding: 94px 0;
 }
 .container {
@@ -26,7 +27,6 @@ header {
 }
 ul {
   list-style: none;
-  column-gap: normal;
 }
 a {
   text-decoration: none;
@@ -47,7 +47,6 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-color);
-  max-width: 696px;
 }
 h2 {
   font-weight: 700;
@@ -55,7 +54,6 @@ h2 {
   line-height: 1.2;
   text-align: center;
   color: var(--brand-color);
-  max-width: 352px;
 }
 h3 {
   font-weight: 700;
@@ -81,7 +79,6 @@ figure {
 }
 .logo {
   color: var(--theme-color);
-  margin-left: 15px;
 }
 .text {
   color: var(--brand-color);
@@ -91,7 +88,6 @@ figure {
 }
 .main-body {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   gap: 30px;
@@ -103,7 +99,6 @@ figure {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
   column-gap: 30px;
 }
 .link-nav,
@@ -131,8 +126,7 @@ figure {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding: 200px 0;
   height: 600px;
 }
 .section-1 {
@@ -152,9 +146,7 @@ figure {
   border: none;
   border-radius: 4px;
   letter-spacing: 0.06em;
-  width: 200px;
-  height: 50px;
-  padding: 10px 41px;
+  padding: 10px 41px 10px 42px;
 }
 .button-1st::first-letter {
   text-transform: uppercase;
@@ -168,6 +160,7 @@ figure {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
+  padding: 6px 22px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
@@ -179,7 +172,6 @@ figure {
 }
 .button-nav {
   display: flex;
-  flex-direction: row;
   column-gap: 8px;
   justify-content: center;
   padding-top: 94px;
@@ -233,7 +225,6 @@ figure {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 94px;
 }
 .person-box {
   background: var(--light-color);
@@ -254,7 +245,6 @@ figure {
 }
 .images-box {
   margin: 0 auto;
-  justify-content: space-between;
   padding-bottom: 94px;
 }
 .box {
